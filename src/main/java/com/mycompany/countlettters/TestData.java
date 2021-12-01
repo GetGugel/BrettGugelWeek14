@@ -19,8 +19,10 @@ public class TestData {
         int value;
         String fileName = "test.txt";
         PrintWriter outFile = new PrintWriter(fileName);
+        
+        
     
-    
+   
         Random rand = new Random();
         for (int line=1; line <= MAX; line++)
         {
